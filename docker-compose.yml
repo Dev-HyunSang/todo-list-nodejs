@@ -1,0 +1,15 @@
+version: '3.7'
+services:
+  todo-list-db:
+    image: mysql
+    container_name: todo-list-db
+    environment: 
+      MYSQL_ROOT_PASSWORD: q1w2e3r4
+      MYSQL_DATABASE: todo_list
+    ports:
+      - 3306:3306
+  todo-list-redis:
+    image: redis
+    container_name: todo-list-redis
+    ports:
+      - 6379:6379
