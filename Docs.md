@@ -1,4 +1,4 @@
-# todo-list-node-js
+# Project Docs
 
 ## REST API
 
@@ -31,5 +31,23 @@
 ### Request
 ```json
 {
+    "email": "me@hyunsang.dev",
+    "password": "q1w2e3r4"
 }
 ```
+
+### Response
+```json
+{
+    "status": 200,
+    "message": "환영해요! 오늘의 하루를 기록하고 실천해 봐요.",
+    "data": {
+        "accessToken": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpYXQiOjE2OTYyNTU5MDIsImV4cCI6MTY5NjI1OTUwMn0.4v01u68I1gf1_GURRDx3m8fnlbuJ6rHraV4I0HSf9Qw",
+        "refreshToken": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpYXQiOjE2OTYyNTU5MDIsImV4cCI6MTY5NzQ2NTUwMn0.0up1pEAkw920_hP7aYAl_ZW6F9YiFNsWbL_MGYqE24o"
+    },
+    "responsed_at": "2023-10-02T14:11:40.908Z"
+}
+```
+
+## 참고한 자료
+- []()
