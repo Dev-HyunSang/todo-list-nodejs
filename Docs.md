@@ -25,3 +25,11 @@
   "created_at": "2023-10-02T08:08:08.181Z"
 }
 ```
+
+## Login User - POST `/auth/login`
+
+### Request
+```json
+{
+}
+```
